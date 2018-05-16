@@ -1,0 +1,348 @@
+/* main styling */
+
+.cover-photo {
+  width: 50%;
+  height: auto;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.fig_title {
+  padding-left: 0px;
+  font-style: italic;
+  width: 400px;
+  max-width: auto;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  opacity: .8;
+  padding-left: 20px;
+  width: auto;
+  max-width: 850px;
+  padding-right: 20px;
+}
+
+figcaption {
+  font-size: 14px;
+  padding-left: 35px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 14px;
+  padding-left: 15px;
+}
+
+h2 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+/* end main styling */
+
+/* start hover styling */
+
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.photo-container {
+  width: auto;
+  max-width: 700px;
+  position: relative;
+  height: auto;
+  /*z-index: 1;*/
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+}
+
+.caption {
+  color: gray;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.credit {
+  font-weight: 400;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+  background: #ccc;
+  border: 2px solid #fff;
+  opacity: .6;
+  z-index: 3;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  outline: none;
+}
+
+#condoms {
+  /*background-color: purple;*/
+  position: absolute;
+  top: 15%;
+  /* Must be in percentage or will move on different devices*/
+  left: 55%;
+}
+
+#waste {
+  position: absolute;
+  top: 40%;
+  /* Must be in percentage or will move on different devices*/
+  left: 20%;
+  /* Must be in percentage or will move on different devices*/
+}
+
+#wound {
+  /*background-color: purple;*/
+  position: absolute;
+  top: 60%;
+  /* Must be in percentage or will move on different devices*/
+  left: 45%;
+  /* Must be in percentage or will move on different devices*/
+}
+
+#narcan {
+  /*background-color: purple;*/
+  position: absolute;
+  top: 75%;
+  /* Must be in percentage or will move on different devices*/
+  left: 75%;
+  /* Must be in percentage or will move on different devices*/
+}
+
+#literature {
+  /*background-color: purple;*/
+  position: absolute;
+  top: 40%;
+  /* Must be in percentage or will move on different devices*/
+  left: 65%;
+  /* Must be in percentage or will move on different devices*/
+}
+
+#inhaler {
+  /*background-color: purple;*/
+  position: absolute;
+  top: 23%;
+  /* Must be in percentage or will move on different devices*/
+  left: 26%;
+  /* Must be in percentage or will move on different devices*/
+}
+
+#gloves {
+  /*background-color: purple;*/
+  position: absolute;
+  top: 65%;
+  /* Must be in percentage or will move on different devices*/
+  left: 60%;
+  /* Must be in percentage or will move on different devices*/
+}
+
+#instructions {
+  /*background-color: purple;*/
+  position: absolute;
+  top: 27%;
+  /* Must be in percentage or will move on different devices*/
+  left: 75%;
+  /* Must be in percentage or will move on different devices*/
+}
+
+#alcohol {
+  /*background-color: purple;*/
+  position: absolute;
+  top: 55%;
+  /* Must be in percentage or will move on different devices*/
+  left: 15%;
+  /* Must be in percentage or will move on different devices*/
+}
+
+#bag {
+  /*background-color: purple;*/
+  position: absolute;
+  top: 50%;
+  /* Must be in percentage or will move on different devices*/
+  left: 37%;
+  /* Must be in percentage or will move on different devices*/
+}
+
+#shield {
+  /*background-color: purple;*/
+  position: absolute;
+  top: 20%;
+  /* Must be in percentage or will move on different devices*/
+  left: 44%;
+  /* Must be in percentage or will move on different devices*/
+}
+
+.info_slides {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #1A1263;
+  opacity: .8;
+  display: none;
+  padding-top: 20px;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+.info_slides_show {
+  display: block;
+}
+
+.hide_btn {
+  display: none;
+  color: white;
+}
+
+.popIn-info {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  padding-bottom: 10px;
+  padding: 70px 15px 30px 15px;
+  font-size: 16px;
+  text-align: left;
+  color: #FFF;
+  height: 100%;
+  /*display: none;*/
+}
+
+.btn_close {
+  position: absolute;
+  font-family: sans-serif;
+  top: 5%;
+  left: 92%;
+  font-size: 18px;
+  color: white;
+  z-index: 20;
+  font-weight: bolder;
+  display: none;
+  cursor: pointer;
+}
+
+.btn_close_show {
+  display: block;
+}
+
+/* Tablet/Desktop overrides */
+
+@media(min-width: 681px) {
+  /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+@media(min-width: 729px) {
+  /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+  .circle:hover {
+    background: #ed462f;
+  }
+  .popIn-info {
+    font-size: 16px;
+    padding: 200px 15px 30px 15px;
+    /*display: none;*/
+  }
+  .btn_close {
+    font-size: 4em;
+    font-weight: bold;
+  }
+  .btn_close:hover {
+    font-weight: bold;
+    color: white;
+  }
+}
+
+/* end hover styling */
+
+/* .fig_title {
+  padding-left: 0px;
+  font-style: italic;
+  width: 500px;
+  max-width: auto;
+  font-family: sans-serif;
+} */
+
+/* start filter styling */
+
+.form-control {
+  font-size: 16px;
+  padding-left: 5px;
+  border-width: thin;
+  border-style: solid;
+}
+
+input {
+  border: none;
+}
+
+table {
+  /* table-layout: fixed; */
+  border-collapse: collapse;
+  border-spacing: 0;
+  /* width: 100%; */
+  border: 1px solid #ddd;
+  overflow: scroll;
+  max-height: 500px;
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+
+th {
+  text-align: justify;
+  padding: 8px;
+  font-family: 'Questrial', sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  /* background-color: gray; */
+}
+
+td {
+  text-align: left;
+  padding: 4px
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table_content {
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 14px;
+  /* overflow-x: auto;
+  overflow-y: scroll;
+  max-height: 400px; */
+}
+
+.table_container {
+  overflow-x: auto;
+  overflow-y: scroll;
+  max-width: 750px;
+  max-height: 400px;
+  padding-bottom: 20px;
+  width: auto;
+}
+
+.table_scroll {
+  overflow-x: auto;
+  overflow-y: scroll;
+  /* max-height: 400px; */
+}
+
+/* end filter styling */
